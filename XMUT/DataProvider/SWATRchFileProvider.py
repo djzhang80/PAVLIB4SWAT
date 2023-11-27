@@ -54,7 +54,7 @@ class RCHProvider(ProviderInterface):
                 #del feature["properties"]
                 item=copy.deepcopy(feature)
                 rch=feature["properties"]["Subbasin"]
-                dis=df.loc[(df["rch_no"]==rch) &  (df["date"]==d1),"discharge"]
+                dis=df.loc[(df["rch_no"]==rch) &  (df["date"]==d1.to_pydatetime().date()),"discharge"]
                 item["properties"]["discharge"]=dis.values[0]
                 item["properties"]["date"]=int(d1.timestamp()*1000)
                 discharge["features"].append(item)

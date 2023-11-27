@@ -26,6 +26,10 @@ class Configuration:
     def getConfigByType(self,type="ts_rivers",dataid=None,startdate=None)->dict:
         #print(TS_rivers.config)
         match type:
+            case "scenarios":
+                from .scenarios import config
+            case "ts_trip_discharges":
+                from .TS_trip_discharges import config
             case "ts_rivers":
                 from .TS_rivers import config
             case "ts_subbasins":

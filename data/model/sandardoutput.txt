@@ -1,0 +1,16 @@
+                SWAT2009               
+               Rev. 481               
+      Soil & Water Assessment Tool    
+               PC Version             
+ Program reading from file.cio . . . executing
+
+  Executing year    1
+  Executing year    2
+  Executing year    3
+  Executing year    4
+  Executing year    5
+  Executing year    6
+  Executing year    7
+  Executing year    8
+
+ Execution successfully completed 

@@ -1,0 +1,6 @@
+pip install jsonpath-ng
+pip install pyshp
+pip install pyproj
+pip install pandas
+pip install keplergl
+pip install matplotlib

@@ -1,0 +1,25 @@
+subbasin       1     1     1                              Subbasin: 3
+          000010000.sub
+subbasin       1     2     2                              Subbasin: 4
+          000020000.sub
+subbasin       1     3     3                              Subbasin: 6
+          000030000.sub
+subbasin       1     4     4                              Subbasin: 9
+          000040000.sub
+subbasin       1     5     5                              Subbasin: 26
+          000050000.sub
+route          2     6     1     1
+          000010000.rte000010000.swq
+add            5     7     3     6
+route          2     8     2     2
+          000020000.rte000020000.swq
+add            5     9     7     8
+route          2    10     3     9
+          000030000.rte000030000.swq
+add            5    11     5    10
+route          2    12     4     4
+          000040000.rte000040000.swq
+add            5    13    11    12
+route          2    14     5    13
+          000050000.rte000050000.swq
+finish         0

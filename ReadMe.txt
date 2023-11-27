@@ -1,0 +1,1 @@
+If the basic map does not appear, this is because the access token to the MapBox service is expired. You can apply one yourself and replace the access token in the HTML files. Also please confirm that you can access MapBox service freely，because Kepler.gl is built upon MapBox service (for example, you may not able to access MapBox service from China).
